@@ -1,0 +1,21 @@
+1,pao,comida,pingo doce,2,10
+2,agua,bebida alcoolica,eristoff,20,1
+3,f,comida,das,1,3
+4,po,comida,ao,3,4
+5,vinho,bebida,pd,12,4
+6,pi,higiene,pd,21,4
+7,j,comida,r,23,2
+8,a,limpeza,asd,2,2
+9,ze,comida,tre,3,2
+10,w,comida,sdfg,2,32
+11,pa,bebida,ma,12,3
+12,Cola,COMIDA,dsfsd,20,65
+13,Cola,COMIDA,sda,20,38
+14,LOL,COMIDA,Riot Games,25,10
+15,PaoCapitao,Comida,continente,10,0
+16,AfonsoCOCO,comida,Tinente,30,0
+17,Pao,Comida,continente,2,5
+18,ola,comida,continete,10,3
+19,comida,comida,comida,10,15
+20,casc,sacsac,ascasc,10,8
+21,Chily,Comida,Tinente,3,6

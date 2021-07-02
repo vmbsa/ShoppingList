@@ -1,0 +1,44 @@
+<?xml version="1.0" encoding="UTF-8"?>
+
+<?import javafx.scene.control.*?>
+<?import javafx.scene.image.*?>
+<?import javafx.scene.layout.*?>
+<?import javafx.scene.text.*?>
+
+<AnchorPane onMouseEntered="#onclicked" prefHeight="600.0" prefWidth="1000.0" xmlns="http://javafx.com/javafx/11.0.2" xmlns:fx="http://javafx.com/fxml/1" fx:controller="Controller">
+   <children>
+      <ImageView fitHeight="600.0" fitWidth="1000.0" pickOnBounds="true">
+         <image>
+            <Image url="file:/C:\Users\35191\IdeaProjects\ProjetoPt2PPM_grupo27_JoaoVeloso87305_AnaSantana82540_VascoSilva82688\Parte 2\ProjetoPPM_Parte2_\Imagens\inspiracao_registo.png" />
+         </image>
+      </ImageView>
+      <Label layoutX="424.0" layoutY="21.0" prefHeight="65.0" prefWidth="154.0" text="Menu">
+         <font>
+            <Font name="Arial Rounded MT Bold" size="55.0" />
+         </font>
+      </Label>
+      <Button fx:id="addProdutcs" layoutX="678.0" layoutY="163.0" mnemonicParsing="false" onMouseClicked="#onAdicionarProdutosBD" prefHeight="50.0" prefWidth="300.0" text="Adicionar produto a base de dados" textAlignment="CENTER" wrapText="true" />
+      <Button layoutX="394.0" layoutY="164.0" mnemonicParsing="false" onMouseClicked="#onVerBD" prefHeight="48.0" prefWidth="213.0" text="Ver BD Produtos" textAlignment="CENTER" wrapText="true" />
+      <Button layoutX="678.0" layoutY="345.0" mnemonicParsing="false" prefHeight="50.0" prefWidth="300.0" text="Adicionar produto a minha lista de compras pessoal" textAlignment="CENTER" wrapText="true" />
+      <Button layoutX="678.0" layoutY="406.0" mnemonicParsing="false" prefHeight="50.0" prefWidth="300.0" text="Adicionar uma receita" textAlignment="CENTER" wrapText="true" />
+      <Button layoutX="28.0" layoutY="163.0" mnemonicParsing="false" onMouseClicked="#onVerReceitas" prefHeight="50.0" prefWidth="300.0" text="Ver receitas" textAlignment="CENTER" wrapText="true" />
+      <Button layoutX="28.0" layoutY="223.0" mnemonicParsing="false" onMouseClicked="#onVerQuantidadePlastico" prefHeight="50.0" prefWidth="300.0" text="Ver q/ plastico" textAlignment="CENTER" wrapText="true" />
+      <Button layoutX="678.0" layoutY="284.0" mnemonicParsing="false" prefHeight="50.0" prefWidth="300.0" text="Adicionar produtos da receita para a lista de compras" textAlignment="CENTER" wrapText="true" />
+      <Button layoutX="678.0" layoutY="223.0" mnemonicParsing="false" prefHeight="50.0" prefWidth="300.0" text="Adicionar produtos ao inventario" textAlignment="CENTER" wrapText="true" />
+      <Button layoutX="28.0" layoutY="406.0" mnemonicParsing="false" prefHeight="50.0" prefWidth="300.0" text="Copiar a lista de um utilizador" textAlignment="CENTER" wrapText="true" />
+      <Button layoutX="698.0" layoutY="546.0" mnemonicParsing="false" onMouseClicked="#onLogoutClicked" prefHeight="29.0" prefWidth="100.0" text="Logout" />
+      <Button fx:id="leaveButton" layoutX="840.0" layoutY="546.0" mnemonicParsing="false" onMouseClicked="#onLeaveButton" prefHeight="29.0" prefWidth="100.0" text="Sair" />
+      <Button layoutX="28.0" layoutY="345.0" mnemonicParsing="false" prefHeight="50.0" prefWidth="300.0" text="Limpar lista de compras e adicionar ao inventario" textAlignment="CENTER" wrapText="true" />
+      <Button layoutX="28.0" layoutY="284.0" mnemonicParsing="false" prefHeight="50.0" prefWidth="300.0" text="Ver lista de compras " textAlignment="CENTER" wrapText="true" />
+      <Label fx:id="userLabel" layoutX="28.0" layoutY="40.0" prefHeight="48.0" prefWidth="359.0" textAlignment="CENTER">
+         <font>
+            <Font name="Arial Rounded MT Bold" size="24.0" />
+         </font></Label>
+      <TextArea fx:id="things" layoutX="336.0" layoutY="258.0" nodeOrientation="LEFT_TO_RIGHT" prefHeight="311.0" prefWidth="331.0" visible="false" />
+      <Label fx:id="timeDate" layoutX="690.0" layoutY="14.0" prefHeight="50.0" prefWidth="300.0" textAlignment="CENTER">
+         <font>
+            <Font name="Arial Rounded MT Bold" size="12.0" />
+         </font></Label>
+      <Label fx:id="labelTextArea" layoutX="348.0" layoutY="231.0" prefHeight="17.0" prefWidth="300.0" />
+   </children>
+</AnchorPane>

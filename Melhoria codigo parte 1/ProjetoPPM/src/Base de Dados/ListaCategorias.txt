@@ -1,0 +1,6 @@
+BEBIDA,leite,sfaq,beirao,sadgf,sf,w
+COMIDA,dasfd,gomas
+HIGIENE,gb
+LIMPEZA
+BEBIDA ALCOOLICA,qwerty,vodka limao,vodka limao,e
+OUTROS

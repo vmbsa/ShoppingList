@@ -1,0 +1,29 @@
+<?xml version="1.0" encoding="UTF-8"?>
+
+<?import javafx.scene.control.*?>
+<?import javafx.scene.image.*?>
+<?import javafx.scene.layout.*?>
+<?import javafx.scene.text.*?>
+
+<AnchorPane maxHeight="-Infinity" maxWidth="-Infinity" minHeight="-Infinity" minWidth="-Infinity" prefHeight="400.0" prefWidth="600.0" xmlns="http://javafx.com/javafx/11.0.2" xmlns:fx="http://javafx.com/fxml/1" fx:controller="Controller">
+   <ImageView fx:id="image" fitHeight="400.0" fitWidth="600.0" pickOnBounds="true">
+      <image>
+         <Image url="file:/C:\Users\35191\IdeaProjects\ProjetoPt2PPM_grupo27_JoaoVeloso87305_AnaSantana82540_VascoSilva82688\Parte 2\ProjetoPPM_Parte2_\Imagens\inspiracao.png" />
+      </image>
+   </ImageView>
+    <TextField fx:id="username" layoutX="263.0" layoutY="159.0" />
+   <PasswordField fx:id="password" layoutX="263.0" layoutY="223.0" />
+    <TextField fx:id="maskLogin" layoutX="263.0" layoutY="223.0" prefHeight="25.0" prefWidth="149.0" visible="false" />
+    <Button fx:id="loginButton" layoutX="178.0" layoutY="279.0" mnemonicParsing="false" onMouseClicked="#onLoginClicked" prefHeight="25.0" prefWidth="245.0" text="Login" />
+    <Label layoutX="178.0" layoutY="167.0" prefHeight="17.0" prefWidth="149.0" text="Username" />
+    <Label layoutX="178.0" layoutY="231.0" prefHeight="17.0" prefWidth="149.0" text="Password" />
+    <Button fx:id="RegisterButton" layoutX="178.0" layoutY="347.0" mnemonicParsing="false" onMouseClicked="#onRegisterClicked" prefHeight="25.0" prefWidth="245.0" text="Register" />
+    <Label contentDisplay="CENTER" layoutX="217.0" layoutY="318.0" prefHeight="17.0" prefWidth="197.0" text="U don't have and account?" textAlignment="CENTER" wrapText="true" />
+    <Label layoutX="226.0" layoutY="33.0" prefHeight="66.0" prefWidth="149.0" text="Login" textAlignment="CENTER">
+        <font>
+            <Font name="Arial Rounded MT Bold" size="55.0" />
+        </font>
+    </Label>
+   <Label fx:id="ErroLogin" layoutX="173.0" layoutY="256.0" prefHeight="17.0" prefWidth="245.0" textAlignment="CENTER" textFill="#d00000" />
+   <CheckBox layoutX="433.0" layoutY="227.0" mnemonicParsing="false" onMouseClicked="#ClickCheckBox" prefHeight="17.0" prefWidth="114.0" text="Show password" />
+</AnchorPane>
