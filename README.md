@@ -1,0 +1,3 @@
+# ShoppingList
+
+In a group of work, we created a program where users could register themselves and create their own shopping list. Furthermore, they could also monitor the items they had at home and add or remove the stock of that same item. Besides this, users had access to a database of recipes created by other users, or even added by themselves. This items that were part of each of these recipes could be added automatically to the users shopping list, saving time. After adding elements to the shopping list, the program would also give feedback about the sustainability of that product by analysing its plastic percentage and suggest some more environmentally friendly ones similar to the one that the user was trying to add.
